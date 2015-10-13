@@ -50,7 +50,7 @@ class NP_MostCommented extends NucleusPlugin {
 
 		$q = 	"SELECT inumber as id, ititle as title, ".
                         "citem,COUNT(cnumber) as num_of_comments, ".
-                        "SUM(SubComment.cVal)*POW(COUNT(cnumber),2)*SUM(SubComment.iVal) as CurrentVal ". 
+                        "SUM(SubComment.cVal)*POW(COUNT(cnumber),2)*MAX(SubComment.iVal) as CurrentVal ". 
                         "FROM ( ".
                         "SELECT *, ".
                         "SQRT(1.0 / POW((DATEDIFF(c.ctime,CURDATE()) / 365),2)) as cVal,". 
