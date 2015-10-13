@@ -5,4 +5,8 @@ The original Most Commented simply counted all the comments and gave you the ite
 
 The maths goes something like this: the square root of one over the age in days over 365 squared; times the comment count squared; times the sum of suare root of comment itema ge in days over 365 squared.
 
+For a more detailed breakdown of how the maths works to ballance age vs comment count you might like to visit: http://lordmatt.co.uk/item/2641
+
 If you use the original Most Commented you can upgrade by simply replacing your current plugin file with this one.
+
+100% compatable with NucleusCMS, LMNucleusCMS and NucleusCMS::MOON
