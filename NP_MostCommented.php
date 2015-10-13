@@ -15,9 +15,8 @@
 /**
  * A plugin for Nucleus CMS to show a list of most commented items.
  * @license  http://www.gnu.org/licenses/gpl.txt
- * @author   Jeroen Budts (TeRanEX)
- * @tutorial http://wiki.budts.be/nucleus:plugins:most_commented
- * @version  1.0
+ * @author   Lord Matt
+ * @version  2.0
  */
 class NP_MostCommented extends NucleusPlugin {
 
